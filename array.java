@@ -18,7 +18,11 @@ class array{
 
 				//Finding maximum number
 
-				int arr2[
+				int max=arr1[0];
+				for(int i=1;i<arr1.length;i++){
+						if(max<arr1[i]){max=arr1[i];}
+					}
+				System.out.println("Maximum Number is: "+max);
 
 			}
 	}
